@@ -1,0 +1,626 @@
+D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_8x8.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_8x8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ha
+-- Compiling module vedic_2x2
+-- Compiling module add_4_bit
+-- Compiling module add_6_bit
+-- Compiling module vedic_4x4
+-- Compiling module add_8_bit
+-- Compiling module add_12_bit
+-- Compiling module vedic_8x8
+
+Top level modules:
+	vedic_8x8
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_N_bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_N_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module add_N_bit
+
+Top level modules:
+	add_N_bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_controller_v2.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_controller_v2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cache_controller_v2
+
+Top level modules:
+	cache_controller_v2
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/CLA.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/CLA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CLA
+-- Compiling module cla
+
+Top level modules:
+	CLA
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_4_bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_4_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_4_bit
+
+Top level modules:
+	add_4_bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Forwarding_Unit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Forwarding_Unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Forwarding_Unit
+
+Top level modules:
+	Forwarding_Unit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/EX_MEM.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/EX_MEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Gshare_BP.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Gshare_BP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Gshare_BP
+-- Compiling module Gshare
+
+Top level modules:
+	Gshare_BP
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/shifter_1bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/shifter_1bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter_1bit
+
+Top level modules:
+	shifter_1bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/RISCV_tb.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/RISCV_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Control_Unit
+-- Compiling module Hazard_Detection
+-- Compiling module IM
+-- Compiling module ID
+-- Compiling module register_file
+-- Compiling module Gshare_BP
+-- Compiling module Gshare
+-- Compiling module Local_BP
+-- Compiling module Local
+-- Compiling module BTB
+-- Compiling module CPT
+-- Compiling module cpt
+-- Compiling module Branch_Predictor_Unit
+-- Compiling module Data_Mem
+-- Compiling module imm_gen
+-- Compiling module Forwarding_Unit
+-- Compiling module Forwarding_Unit_FP
+-- Compiling module IF_ID
+-- Compiling module ID_EX
+-- Compiling module EX_MEM
+-- Compiling module Reg_MEM_WB
+-- Compiling module CLA
+-- Compiling module cla
+-- Compiling module comparator
+-- Compiling module logic_unit
+-- Compiling module mux4to1
+-- Compiling module shifter_1bit
+-- Compiling module shifter
+-- Compiling module shifter_16bit
+-- Compiling module shifter_8bit
+-- Compiling module shifter_4bit
+-- Compiling module shifter_2bit
+-- Compiling module ALU
+-- Compiling module add_sub
+-- Compiling module ha
+-- Compiling module vedic_2x2
+-- Compiling module add_4_bit
+-- Compiling module add_6_bit
+-- Compiling module vedic_4x4
+-- Compiling module add_8_bit
+-- Compiling module add_12_bit
+-- Compiling module vedic_8x8
+-- Compiling module add_16_bit
+-- Compiling module add_24_bit
+-- Compiling module vedic_16x16
+-- Compiling module add_32_bit
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module add_48_bit
+-- Compiling module vedic_32x32
+-- Compiling module mul
+-- Compiling module div
+-- Compiling module selector
+-- Compiling module normalizer_1
+-- Compiling module rounding
+-- Compiling module normalizer_2
+-- Compiling module FPU
+-- Compiling module D_FF
+-- Compiling module mini_D_FF
+-- Compiling module mem
+-- Compiling module cache_controller_v2
+-- Compiling module cache_data_block
+-- Compiling module cache_flag
+-- Compiling module cache_tag
+-- Compiling module cache_unit
+-- Compiling module top_wrapper
+-- Compiling module RISCV
+-- Compiling module RISCV_tb
+
+Top level modules:
+	Data_Mem
+	mini_D_FF
+	RISCV_tb
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/normalizer_2.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/normalizer_2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module normalizer_2
+
+Top level modules:
+	normalizer_2
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/mul.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/mul.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ha
+-- Compiling module vedic_2x2
+-- Compiling module add_4_bit
+-- Compiling module add_6_bit
+-- Compiling module vedic_4x4
+-- Compiling module add_8_bit
+-- Compiling module add_12_bit
+-- Compiling module vedic_8x8
+-- Compiling module add_16_bit
+-- Compiling module add_24_bit
+-- Compiling module vedic_16x16
+-- Compiling module add_32_bit
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module add_48_bit
+-- Compiling module vedic_32x32
+-- Compiling module mul
+
+Top level modules:
+	mul
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_8_bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_8_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_8_bit
+
+Top level modules:
+	add_8_bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/mem.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Forwarding_Unit_FP.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Forwarding_Unit_FP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Forwarding_Unit_FP
+
+Top level modules:
+	Forwarding_Unit_FP
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_32_bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_32_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_32_bit
+
+Top level modules:
+	add_32_bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/data_source_mux.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/data_source_mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_source_mux
+
+Top level modules:
+	data_source_mux
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_flag.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_flag.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cache_flag
+
+Top level modules:
+	cache_flag
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/shifter.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/shifter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter_1bit
+-- Compiling module shifter
+-- Compiling module shifter_16bit
+-- Compiling module shifter_8bit
+-- Compiling module shifter_4bit
+-- Compiling module shifter_2bit
+
+Top level modules:
+	shifter
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_2x2.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_2x2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ha
+-- Compiling module vedic_2x2
+
+Top level modules:
+	vedic_2x2
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/D_FF.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/D_FF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module D_FF
+-- Compiling module mini_D_FF
+
+Top level modules:
+	D_FF
+	mini_D_FF
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_controller.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cache_controller
+
+Top level modules:
+	cache_controller
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/ALU.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CLA
+-- Compiling module cla
+-- Compiling module comparator
+-- Compiling module logic_unit
+-- Compiling module mux4to1
+-- Compiling module shifter_1bit
+-- Compiling module shifter
+-- Compiling module shifter_16bit
+-- Compiling module shifter_8bit
+-- Compiling module shifter_4bit
+-- Compiling module shifter_2bit
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/full_adder.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/IF_ID.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/IF_ID.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/register_file.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/register_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/imm_gen.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/imm_gen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module imm_gen
+
+Top level modules:
+	imm_gen
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/demo_state.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/demo_state.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module demo_state
+
+Top level modules:
+	demo_state
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_tag.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_tag.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cache_tag
+
+Top level modules:
+	cache_tag
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Control_Unit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Control_Unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Branch_Predictor_Unit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Branch_Predictor_Unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Gshare_BP
+-- Compiling module Gshare
+-- Compiling module Local_BP
+-- Compiling module Local
+-- Compiling module BTB
+-- Compiling module CPT
+-- Compiling module cpt
+-- Compiling module Branch_Predictor_Unit
+
+Top level modules:
+	Branch_Predictor_Unit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Data_Mem.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Data_Mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Data_Mem
+
+Top level modules:
+	Data_Mem
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_12_bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_12_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_12_bit
+
+Top level modules:
+	add_12_bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_unit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cache_controller_v2
+-- Compiling module cache_data_block
+-- Compiling module cache_flag
+-- Compiling module cache_tag
+-- Compiling module cache_unit
+
+Top level modules:
+	cache_unit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/div.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/div.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module div
+
+Top level modules:
+	div
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/FPU.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/FPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_sub
+-- Compiling module ha
+-- Compiling module vedic_2x2
+-- Compiling module add_4_bit
+-- Compiling module add_6_bit
+-- Compiling module vedic_4x4
+-- Compiling module add_8_bit
+-- Compiling module add_12_bit
+-- Compiling module vedic_8x8
+-- Compiling module add_16_bit
+-- Compiling module add_24_bit
+-- Compiling module vedic_16x16
+-- Compiling module add_32_bit
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module add_48_bit
+-- Compiling module vedic_32x32
+-- Compiling module mul
+-- Compiling module div
+-- Compiling module selector
+-- Compiling module normalizer_1
+-- Compiling module rounding
+-- Compiling module normalizer_2
+-- Compiling module FPU
+
+Top level modules:
+	FPU
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_32x32.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_32x32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ha
+-- Compiling module vedic_2x2
+-- Compiling module add_4_bit
+-- Compiling module add_6_bit
+-- Compiling module vedic_4x4
+-- Compiling module add_8_bit
+-- Compiling module add_12_bit
+-- Compiling module vedic_8x8
+-- Compiling module add_16_bit
+-- Compiling module add_24_bit
+-- Compiling module vedic_16x16
+-- Compiling module add_32_bit
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module add_48_bit
+-- Compiling module vedic_32x32
+
+Top level modules:
+	vedic_32x32
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Reg_After_MEM_WB.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Reg_After_MEM_WB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Reg_After_MEM_WB
+
+Top level modules:
+	Reg_After_MEM_WB
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_16_bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_16_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_16_bit
+
+Top level modules:
+	add_16_bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/logic_unit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/logic_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module logic_unit
+
+Top level modules:
+	logic_unit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/rounding.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/rounding.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rounding
+
+Top level modules:
+	rounding
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_data_block.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/cache_data_block.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cache_data_block
+
+Top level modules:
+	cache_data_block
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/mux_rddata.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/mux_rddata.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_rddata
+
+Top level modules:
+	mux_rddata
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_sub.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_sub.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_sub
+
+Top level modules:
+	add_sub
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_6_bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_6_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_6_bit
+
+Top level modules:
+	add_6_bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/CPT.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/CPT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CPT
+-- Compiling module cpt
+
+Top level modules:
+	CPT
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/dff_1.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/dff_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dff_1
+
+Top level modules:
+	dff_1
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/ha.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/ha.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ha
+
+Top level modules:
+	ha
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_48_bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_48_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module add_48_bit
+
+Top level modules:
+	add_48_bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/half_adder.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_16x16.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_16x16.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ha
+-- Compiling module vedic_2x2
+-- Compiling module add_4_bit
+-- Compiling module add_6_bit
+-- Compiling module vedic_4x4
+-- Compiling module add_8_bit
+-- Compiling module add_12_bit
+-- Compiling module vedic_8x8
+-- Compiling module add_16_bit
+-- Compiling module add_24_bit
+-- Compiling module vedic_16x16
+
+Top level modules:
+	vedic_16x16
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/comparator.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/comparator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CLA
+-- Compiling module cla
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/ID_EX.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/ID_EX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_4x4.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/vedic_4x4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ha
+-- Compiling module vedic_2x2
+-- Compiling module add_4_bit
+-- Compiling module add_6_bit
+-- Compiling module vedic_4x4
+
+Top level modules:
+	vedic_4x4
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/mux4to1.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/mux4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/normalizer_1.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/normalizer_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module normalizer_1
+
+Top level modules:
+	normalizer_1
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_24_bit.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/add_24_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_24_bit
+
+Top level modules:
+	add_24_bit
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Local_BP.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Local_BP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Local_BP
+-- Compiling module Local
+
+Top level modules:
+	Local_BP
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/ID.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/ID.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ID
+
+Top level modules:
+	ID
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/BTB.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/BTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BTB
+
+Top level modules:
+	BTB
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Hazard_Detection.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/Hazard_Detection.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Hazard_Detection
+
+Top level modules:
+	Hazard_Detection
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/selector.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/selector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module selector
+
+Top level modules:
+	selector
+
+} {} {}} D:/Thesis/cpu_sample/RSIC-V_5_11_2023/dff_2.v {1 {vlog -work work -stats=none D:/Thesis/cpu_sample/RSIC-V_5_11_2023/dff_2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dff_2
+
+Top level modules:
+	dff_2
+
+} {} {}}
